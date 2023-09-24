@@ -1,0 +1,63 @@
+body {
+    margin: 0 auto;
+    /* Puedes cambiar el color de fondo (background-color) si lo deseas */
+    background-color: rgb(15, 15, 15);
+    color: whitesmoke;
+    max-width: 1200px;
+    min-width: 500px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+svg {
+    border: solid 4px white;
+}
+
+.tag {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    fill: white;
+    text-anchor: middle;
+  }
+/* Completar este archivo con los que estime conveniente */
+#container1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    color: #333;
+}
+
+.titulo {
+    color: #007BFF;
+    font-size: 28px;
+}
+
+
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sub {
+    color: #555;
+    font-size: 20px;
+    margin-top: 20px;
+}
