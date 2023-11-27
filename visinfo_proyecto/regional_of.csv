@@ -1,0 +1,17 @@
+region,total_personas,total_monto,posicion,nombre
+1,290.0,58580.0,2,Tarapaca
+2,514.0,103828.0,3,Antofagasta
+3,350.0,70700.0,4,Atacama
+4,1262.0,254924.0,5,Coquimbo
+5,3134.0,633068.0,6,Valparaiso
+6,1709.0,345218.0,8,Libertador Bernardo O'Higgins
+7,1980.0,399960.0,9,Maule
+8,2806.0,566812.0,11,Biobío
+9,1715.0,346430.0,12,La Araucania
+10,1324.0,267448.0,14,Los Lagos
+11,132.0,26664.0,15,Aysen
+12,226.0,45652.0,16,Magallanes y Antartica
+13,8327.0,1682054.0,7,Region Metropolitana
+14,676.0,136552.0,13,Los Rios
+15,278.0,56156.0,1,Arica y Parinacota
+16,892.0,180184.0,10,Ñuble

@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+    /* Puedes cambiar el color de fondo (background-color) si lo deseas */
+    background-color: #f5f1e4;
+    color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title {
+    margin: 20px;
+}
+#titulo-comuna {
+    text-align: center;
+    margin-top: 0; /* Elimina el margen superior predeterminado */
+}
+
+.text-box {
+    
+    height: 470px;
+    padding: 20px;
+    margin-left: 60px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    text-align: justify;
+    overflow: hidden; /* Evita que el contenido se salga del div */
+    word-wrap: break-word;
+    width: 25%;
+}
+
+.visbox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.visualization1 {
+    width: 25%; /* Adjust as needed */
+    margin: 20px;
+    margin-left: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.visualization2 {
+    width: 40%; /* Adjust as needed */
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin: 10px;
+}
+
+#vis-1 {
+    margin: 10px;
+}
+
+#vis-2 {
+    margin: 10px;
+}
+
+.clicked {
+    stroke:black;
+    stroke-width: 2px;
+    opacity: 1;
+}
+
+p {
+    margin: 0; /* Elimina el margen inferior del párrafo */
+    font-size: 14px;
+}
+ 
+.p2 {
+    margin-top: 15px;
+
+}
+
+a {
+    margin: 0; /* Elimina los márgenes del enlace */
+    display: inline;
+}
+
+
+
+

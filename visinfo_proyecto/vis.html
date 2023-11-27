@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visualización de Datos de Chile</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="title"><h1> ❤ Bodas de Oro ❤</h1></div>   
+        
+    <div class="visbox">
+        <div class="text-box">
+            <p>El bono <strong>Bodas de Oro</strong> es un bono que otorga el Estado de Chile a cualquier pareja que este en el 80% más vulnerable del país segun el
+            <a href="https://www.chileatiende.gob.cl/fichas/42344-registro-social-de-hogares-rsh">RSH</a>
+             y que haya cumplido <strong>50 años de matrimonio</strong>. El bono consta de aproximadamente $202.000 CLP por cónyuge.</p>
+            <p class="p2">Esta visualización esta diseñada para encontrar donde se esconde el <strong>amor verdadero</strong> en Chile. Cuenta con un "mapa" de Chile donde un color más saturado implica más receptores del bono. Selecciona regiones <strong>clickeandolas</strong> para comparar sus comunas y encontrar el lugar perfecto para encontrar a tu pareja de vida. Haz <strong>hover</strong> sobre las regiones o comunas para ver más información, y no dudes en hacer <strong>zoom</strong> para analizar más de cerca las burbujas. Si seleccionas muchas regiones, solo se mostraran las 20 con más 'amor'.</p>
+             <p class="p2">Ten en mente que 'Total Personas' es la <strong>cantidad de recipientes</strong> del bono y 'Total Monto' es la <strong>cantidad total de dinero</strong> que se dio en ese sector en miles de pesos (Osea si Total Monto es 100, estamos hablando de $100.000 pesos chilenos)</p>
+             <p class="p2" align="center"> Para crear esta visualizacion se usaron <a href="https://datos.gob.cl/dataset/bono-bodas-de-oro">datos oficiales</a> del gobierno. Se incluyeron los registros de este bono del <strong>año 2023</strong> unicamente, desde el mes de enero hasta julio.</p>
+             <p class="p2" align="center"> ❤ ❤ ❤</p>
+        </div>
+    
+        <div class="visualization1">
+            <h2>Regiones</h2>
+            <div id="vis-1"></div>
+        </div>
+
+        <div class="visualization2">
+            <h2 id="titulo-comuna">Comunas</h2>
+            <div id="vis-2"></div>
+        </div>
+    </div>
+    <div class="title"><h6>❤ Creado por Juan Fischer ❤</h1></div>
+    <script src="main.js"></script>
+    <script src="config.js"></script>
+
+</body>
+</html>
